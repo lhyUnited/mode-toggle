@@ -8,7 +8,7 @@ const html = document.querySelector('html');
 
 function handleToggle () {
   let mode = html.getAttribute('data-color-mode');
-  mode = mode === 'dark' ? 'light' : 'dark';
+  mode = mode === 'dark' ? 'light' : 'dark'
   html.setAttribute('data-color-mode', mode);
 }
 
